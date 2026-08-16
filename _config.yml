@@ -1,0 +1,6 @@
+title: PouchPath Support
+description: Private nicotine-pouch tracking and quit-plan support.
+theme: minima
+header_pages:
+  - privacy.md
+
