@@ -1,4 +1,8 @@
-# PouchPath Privacy Policy
+---
+layout: page
+title: Privacy Policy
+permalink: /privacy/
+---
 
 Last updated: August 15, 2026
 
@@ -6,15 +10,17 @@ PouchPath is a local-first nicotine-pouch tracking and quit-planning app. It doe
 
 ## Data PouchPath handles
 
-If you choose to enter it, PouchPath can store pouch logs, package-label nicotine strength, times and triggers, craving and mood check-ins, withdrawal symptoms, lapse reflections, quit-plan details, motivations, supporter contact details, and daily reflections.
+If you choose to enter it, PouchPath can store pouch logs, package-label nicotine strength, times and triggers, craving and mood check-ins, withdrawal symptoms, lapse reflections, quit-plan details, motivations, supporter contact details, daily reflections, records of other nicotine use, product presets, and mouth-check notes or optional photos.
 
 ## Local storage and device backup
 
 PouchPath stores its records in protected files in the app container. By default, Apple may include those files in iCloud Backup or an encrypted computer backup. You can exclude future PouchPath files from device backups in **More → Privacy & Data**. Apple may retain older backups according to your Apple Account and backup settings.
 
+Optional mouth-check photos stay in PouchPath's protected local photo vault. They are not included in PouchPath exports or private CloudKit sync and follow the device-backup setting you choose.
+
 ## Optional private iCloud sync
 
-Cross-device sync is off by default. If you enable it, PouchPath stores one encrypted payload in your Apple Account's private CloudKit database. This is separate from iCloud Backup. PouchPath uses CloudKit encrypted fields; Advanced Data Protection is an Apple Account setting controlled by you. Turning sync off stops future synchronization but does not delete the cloud copy unless you choose **Turn off and delete iCloud copy** or **Erase all data**.
+Cross-device sync is off by default. If you enable it, PouchPath stores one encrypted payload in your Apple Account's private CloudKit database. This is separate from iCloud Backup. Turning sync off stops future synchronization but does not delete the cloud copy unless you choose **Turn off and delete iCloud copy** or **Erase all data**.
 
 ## Widget and Apple Watch
 
@@ -26,7 +32,7 @@ Reminders are optional and scheduled locally through Apple's notification system
 
 ## Export, import, retention, and deletion
 
-You can export a restorable JSON backup or readable CSV, import a backup using merge or replace, delete individual records, delete older history, delete the private CloudKit copy, or erase all PouchPath data. Exported files are controlled by the destination you choose in Apple's share/save interface. A protected pre-import recovery copy is kept locally until you erase app data.
+You can export a restorable JSON backup or readable CSV, preview and import a backup using merge or replace, delete individual records, delete older history, delete the private CloudKit copy, or erase all PouchPath data. Exported files are controlled by the destination you choose in Apple's share or save interface. A protected pre-import recovery copy is kept locally until you erase app data.
 
 If verified CloudKit deletion fails, PouchPath keeps the local copy so you can retry. You may instead explicitly erase only the current device, with a warning that the cloud copy remains.
 
@@ -40,5 +46,4 @@ PouchPath is for education and self-management, not medical advice. Nicotine is 
 
 ## Contact and support
 
-For privacy questions, support, or deletion help, open an issue in the public PouchPath Support repository. Do not include health information or other sensitive personal details in a public issue.
-
+For privacy questions, support, or deletion help, [open a support issue](https://github.com/tylerbrevard/pouchpath-support/issues/new). Do not include health information or other sensitive personal details in a public issue.
