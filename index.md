@@ -8,7 +8,8 @@ PouchPath is a local-first nicotine-pouch tracker and quit-plan companion for iP
 
 ## Get help
 
-- [Report a problem or request help](https://github.com/tylerbrevard/pouchpath-support/issues/new)
+- Email [lyonrt@icloud.com](mailto:lyonrt@icloud.com) with questions or a bug report
+- [Report a problem on GitHub](https://github.com/tylerbrevard/pouchpath-support/issues/new) (optional, if you prefer)
 - [Read the privacy policy]({{ '/privacy/' | relative_url }})
 
 Please do not post pouch history, craving notes, supporter details, exports, or other sensitive personal information in a public issue.
